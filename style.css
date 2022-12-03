@@ -91,9 +91,10 @@ header {
     grid-template-columns: 300px 1fr;
     padding: 15px;
     gap: 20px;
-    max-width: 800px;
+    max-width: 1200px;
     align-items: center;
     margin-left: 100px;
+    line-height: 2;
 }
 
 .each-item h3 {
@@ -101,4 +102,15 @@ header {
     font-size: 72px;
     color: var(--light);
     border-right: 5px solid var(--light);
+}
+
+.contact-me ul {
+    list-style-type: none;
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.contact-me li {
+    font-size: 42px;
 }
