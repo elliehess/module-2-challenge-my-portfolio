@@ -1,32 +1,43 @@
+
 body {
     background-color: peachpuff;
 }
 
-.header {
+.container {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+    
+header { 
     font-family: Bradley Hand, cursive;
     background-image: url("https://images.unsplash.com/photo-1615690585120-a5cdabdac2b9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2787&q=80");
     color: #ffffff;
 }
 
-.header h1 {
-    display: flex;
+.headercontainer h1 {
+
     font-size: 72px;
-    align-items: left;
-    justify-content: space-between;
+    display: inline-block;
 }
 
-.navbar {
+.headercontainer nav {
     color: white;
     font-family: marker felt, fantasy;
     font-size: 24px;
     margin-right: 20px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    float: right; 
+    padding-top: 15px;
+    float: right;
 }
 
-.navitem {
+.headercontainer ul {
+    list-style-type: none;
+}
+
+.headercontainer li {
     display: inline-block;
     margin-left: 25px;
 }
