@@ -142,10 +142,10 @@ header {
     color: var(--light);
     background-color: var(--medium);
     padding: 15px 15px;
-    position: relative;
-    margin: auto auto 30px 0;
+    margin: auto auto;
     height: 40%;
 }
+
 .wrap {
     display: flex;
     flex-wrap: wrap;
@@ -161,7 +161,7 @@ header {
     outline: 5px solid var(--medium);
     width: fit-content;
     height: fit-content;
-    margin-top: 15px;
+    margin-top: 30px;
   }
 
 .item h4 {
