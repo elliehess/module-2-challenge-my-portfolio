@@ -125,6 +125,11 @@ header {
     box-sizing: border-box;
   }
 
+/*after many, manyy hours of tutorials and TA help I have made several attempts
+at modeling a flexbox after the mockup. My code was starting to get convoluted so 
+this is my best attempt here without starting from scratch again. */
+
+
 .flex-parent {
     display: flex;
     flex-wrap: wrap;
@@ -174,7 +179,18 @@ header {
     height: 40%;
  }
 
-
+ /*for phones */
+ @media screen and (min-width: 768px) {
+    .item {
+    flex-direction: column;
+}
+}
+ /*for larger screens  */
+ @media screen and (min-width: 992px) {
+   .flex-parent {
+     width: 100%;}
+   }
+  
 .small-text {
     font-size: 24px;
     display: block;

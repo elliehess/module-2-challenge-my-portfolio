@@ -7,7 +7,7 @@ so that they can review samples of my work and assess whether I may be a good ca
 
 ## Visuals
 
-![_Users_ellie_Desktop_bootcamp_challenges_module-1-challenge_Develop_index html](https://user-images.githubusercontent.com/118075347/204108849-e35d65dc-e07c-4144-aeab-48d6a7e6e237.png) 
+![Users-ellie-Desktop-bootcamp-challenges-module-2-challenge-my-portfolio-index-html-1.png](https://postimg.cc/23DWcJpZ)
 
 [Click here for Webpage](https://elliehess.github.io/module-1-challenge/)
 
