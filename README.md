@@ -3,7 +3,7 @@
 ## Description
 
 This is a webpage for an employer to view my deployed portfolio of work samples
-so that they can review samples of my work and assess whether I may be a good candidate for an open position
+so that they can review samples of my work and assess whether I may be a good candidate for an open position.
 
 ## Visuals
 
