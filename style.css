@@ -181,10 +181,11 @@ this is my best attempt here without starting from scratch again. */
 
  /*for phones */
  @media screen and (min-width: 768px) {
-    .item {
+    .item{
     flex-direction: column;
+      } 
 }
-}
+
  /*for larger screens  */
  @media screen and (min-width: 992px) {
    .flex-parent {
